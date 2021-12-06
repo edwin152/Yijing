@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_height="match_parent"
+    tools:layout_width="match_parent"
+    tools:orientation="vertical"
+    tools:parentTag="androidx.appcompat.widget.LinearLayoutCompat">
+
+    <work.edwin.yijing.widget.YaoView
+        android:id="@+id/topYao"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" />
+
+    <work.edwin.yijing.widget.YaoView
+        android:id="@+id/midYao"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" />
+
+    <work.edwin.yijing.widget.YaoView
+        android:id="@+id/btmYao"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14" />
+</merge>

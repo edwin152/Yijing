@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FullScreenDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- 允许蒙层 蒙层透明度 0.3f -->
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+    </style>
+</resources>

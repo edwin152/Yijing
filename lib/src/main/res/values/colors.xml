@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green1">#bce672</color>
+    <color name="green2">#c9dd22</color>
+    <color name="green3">#bddd22</color>
+    <color name="green4">#afdd22</color>
+    <color name="green5">#a3d900</color>
+    <color name="green6">#9ed900</color>
+    <color name="green7">#9ed048</color>
+    <color name="green8">#96ce54</color>
+    <color name="green9">#00bc12</color>
+
+    <color name="white1">#ffffff</color>
+    <color name="white2">#e9e7ef</color>
+    <color name="white3">#f0f0f4</color>
+    <color name="white4">#e9f1f6</color>
+    <color name="white5">#f0fcff</color>
+    <color name="white6">#e3f9fd</color>
+    <color name="white7">#d6ecf0</color>
+    <color name="white8">#fffbf0</color>
+    <color name="white9">#f2ecde</color>
+
+    <color name="yellow1">#eaff56</color>
+    <color name="yellow2">#fff143</color>
+    <color name="yellow3">#faff72</color>
+    <color name="yellow4">#ffa631</color>
+    <color name="yellow5">#ffa400</color>
+    <color name="yellow6">#fa8c35</color>
+    <color name="yellow7">#ff8c31</color>
+    <color name="yellow8">#ff8936</color>
+    <color name="yellow9">#ff7500</color>
+
+    <color name="pink1">#ff461f</color>
+    <color name="pink2">#ff2d51</color>
+    <color name="pink3">#f36838</color>
+    <color name="pink4">#ed5736</color>
+    <color name="pink5">#ff4777</color>
+    <color name="pink6">#f00056</color>
+    <color name="pink7">#ffb3a7</color>
+    <color name="pink8">#f47983</color>
+    <color name="pink9">#db5a6b</color>
+
+    <color name="red1">#ff4e20</color>
+    <color name="red2">#f35336</color>
+    <color name="red3">#dc3023</color>
+    <color name="red4">#ff3300</color>
+    <color name="red5">#cb3a56</color>
+    <color name="red6">#a98175</color>
+    <color name="red7">#b36d61</color>
+    <color name="red8">#ef7a82</color>
+    <color name="red9">#ff0097</color>
+
+    <color name="cyan1">#00e079</color>
+    <color name="cyan2">#00e09e</color>
+    <color name="cyan3">#3de1ad</color>
+    <color name="cyan4">#2add9c</color>
+    <color name="cyan5">#2edfa3</color>
+    <color name="cyan6">#7fecad</color>
+    <color name="cyan7">#a4e2c6</color>
+    <color name="cyan8">#7bcfa6</color>
+    <color name="cyan9">#1bd1a5</color>
+
+    <color name="purple1">#4c221b</color>
+    <color name="purple2">#003371</color>
+    <color name="purple3">#56004f</color>
+    <color name="purple4">#801dae</color>
+    <color name="purple5">#4c8dae</color>
+    <color name="purple6">#b0a4e3</color>
+    <color name="purple7">#cca4e3</color>
+    <color name="purple8">#edd1d8</color>
+    <color name="purple9">#e4c6d0</color>
+
+    <color name="blue1">#70f3ff</color>
+    <color name="blue2">#44cef6</color>
+    <color name="blue3">#3eede7</color>
+    <color name="blue4">#1685a9</color>
+    <color name="blue5">#177cb0</color>
+    <color name="blue6">#065279</color>
+    <color name="blue7">#003472</color>
+    <color name="blue8">#4b5cc4</color>
+    <color name="blue9">#a1afc9</color>
+
+    <color name="brown1">#d3b17d</color>
+    <color name="brown2">#e29c45</color>
+    <color name="brown3">#a78e44</color>
+    <color name="brown4">#c89b40</color>
+    <color name="brown5">#ae7000</color>
+    <color name="brown6">#ca6924</color>
+    <color name="brown7">#b25d25</color>
+    <color name="brown8">#b35c44</color>
+    <color name="brown9">#9b4400</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="click_stamp" type="id" />
+    <item name="double_click_stamp" type="id" />
+    <item name="multi_click_stamp" type="id" />
+    <item name="long_click_x" type="id" />
+    <item name="long_click_y" type="id" />
+    <item name="long_click_background" type="id" />
+</resources>

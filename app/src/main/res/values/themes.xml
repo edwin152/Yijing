@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Yijing" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#000</item>
+
+        <!-- true: status栏会有一层阴影；false: status栏没有阴影;当该项为true时，windowLightStatusBar设置无效，永远为白色 -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <!-- 使底部导航栏透明 -->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- 给status栏设置透明颜色 -->
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent
+        </item>
+        <!-- true: status栏的图标和文字为黑色；false: status栏的图标和文字为白色 -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="Theme.Yijing.Dark" parent="Theme.Yijing">
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <style name="Theme.Yijing.Full" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="p">shortEdges</item>
+    </style>
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name = "Yijing"
+include ':app', ':lib'

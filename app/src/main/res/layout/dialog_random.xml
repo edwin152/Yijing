@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <work.edwinlib.android.widget.multi.MultiConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@android:color/transparent"
+        android:padding="15dp"
+        app:multi_colorBg="#fff"
+        app:multi_radius="15dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/number1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintDimensionRatio="h,4:3"
+            app:layout_constraintEnd_toStartOf="@id/number2"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="100" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/number2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintDimensionRatio="h,4:3"
+            app:layout_constraintEnd_toStartOf="@id/number3"
+            app:layout_constraintStart_toEndOf="@id/number1"
+            tools:text="100" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/number3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintDimensionRatio="h,4:3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/number2"
+            tools:text="100" />
+
+        <work.edwinlib.android.widget.multi.MultiTextView
+            android:id="@+id/random"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="随机"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/number1"
+            app:multi_colorEnd="@color/blue2"
+            app:multi_colorStart="@color/blue1"
+            app:multi_radius="8dp"
+            tools:ignore="HardcodedText" />
+    </work.edwinlib.android.widget.multi.MultiConstraintLayout>
+</FrameLayout>

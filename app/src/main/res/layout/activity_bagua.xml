@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <work.edwinlib.android.widget.multi.MultiImageView
+        android:id="@+id/taiji"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="80dp"
+        android:padding="2dp"
+        android:src="@drawable/ic_taiji"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="h,1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:multi_radius="9999dp"
+        app:multi_strokeColor="#f3f3f3"
+        app:multi_strokeWidth="2dp" />
+
+    <work.edwin.yijing.widget.SimpleGuaView
+        android:id="@+id/simpleGuaView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        app:gua_name="Qian"
+        app:layout_constraintBottom_toTopOf="@id/taiji"
+        app:layout_constraintEnd_toEndOf="@id/taiji"
+        app:layout_constraintStart_toStartOf="@id/taiji" />
+
+    <work.edwin.yijing.widget.SimpleGuaView
+        android:id="@+id/simpleGuaView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:rotation="45"
+        android:translationX="21.2dp"
+        android:translationY="-21.2dp"
+        app:gua_name="Xun"
+        app:layout_constraintEnd_toEndOf="@id/taiji"
+        app:layout_constraintTop_toTopOf="@id/taiji" />
+
+    <work.edwin.yijing.widget.SimpleGuaView
+        android:id="@+id/simpleGuaView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:rotation="90"
+        app:gua_name="Kan"
+        app:layout_constraintBottom_toBottomOf="@id/taiji"
+        app:layout_constraintStart_toEndOf="@id/taiji"
+        app:layout_constraintTop_toTopOf="@id/taiji" />
+
+    <work.edwin.yijing.widget.SimpleGuaView
+        android:id="@+id/simpleGuaView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:rotation="135"
+        android:translationX="21.2dp"
+        android:translationY="21.2dp"
+        app:gua_name="Gen"
+        app:layout_constraintBottom_toBottomOf="@id/taiji"
+        app:layout_constraintEnd_toEndOf="@id/taiji" />
+
+    <work.edwin.yijing.widget.SimpleGuaView
+        android:id="@+id/simpleGuaView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:rotation="180"
+        app:gua_name="Kun"
+        app:layout_constraintEnd_toEndOf="@id/taiji"
+        app:layout_constraintStart_toStartOf="@id/taiji"
+        app:layout_constraintTop_toBottomOf="@id/taiji" />
+
+    <work.edwin.yijing.widget.SimpleGuaView
+        android:id="@+id/simpleGuaView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:rotation="225"
+        android:translationX="-21.2dp"
+        android:translationY="21.2dp"
+        app:gua_name="Zhen"
+        app:layout_constraintBottom_toBottomOf="@id/taiji"
+        app:layout_constraintStart_toStartOf="@id/taiji" />
+
+    <work.edwin.yijing.widget.SimpleGuaView
+        android:id="@+id/simpleGuaView7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:rotation="270"
+        app:gua_name="Li"
+        app:layout_constraintBottom_toBottomOf="@id/taiji"
+        app:layout_constraintEnd_toStartOf="@id/taiji"
+        app:layout_constraintTop_toTopOf="@id/taiji" />
+
+    <work.edwin.yijing.widget.SimpleGuaView
+        android:id="@+id/simpleGuaView8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:rotation="315"
+        android:translationX="-21.2dp"
+        android:translationY="-21.2dp"
+        app:gua_name="Dui"
+        app:layout_constraintStart_toStartOf="@id/taiji"
+        app:layout_constraintTop_toTopOf="@id/taiji" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Multi">
+        <attr name="multi_angle" format="integer" />
+        <attr name="multi_colorBg" format="color" />
+        <attr name="multi_colorEnd" format="color" />
+        <attr name="multi_colorStart" format="color" />
+        <attr name="multi_strokeColor" format="color" />
+        <attr name="multi_strokeWidth" format="dimension" />
+        <attr name="multi_radius" format="dimension" />
+        <attr name="multi_radiusLeftTop" format="dimension" />
+        <attr name="multi_radiusRightTop" format="dimension" />
+        <attr name="multi_radiusLeftBottom" format="dimension" />
+        <attr name="multi_radiusRightBottom" format="dimension" />
+    </declare-styleable>
+</resources>

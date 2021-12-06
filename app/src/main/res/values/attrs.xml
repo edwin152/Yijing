@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Gua">
+        <attr name="gua_name" format="enum">
+            <enum name="Qian" value="0" />
+            <enum name="Kun" value="1" />
+            <enum name="Zhen" value="2" />
+            <enum name="Gen" value="3" />
+            <enum name="Li" value="4" />
+            <enum name="Kan" value="5" />
+            <enum name="Dui" value="6" />
+            <enum name="Xun" value="7" />
+        </attr>
+    </declare-styleable>
+</resources>
